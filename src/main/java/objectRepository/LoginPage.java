@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-	system.out.println("code changed from github");
+	System.out.println("code changed from github");
 	//declaration
 	@FindBy(xpath="//input[@name='user_name']")private WebElement untxt;
 	@FindBy(xpath="//input[@name='user_password']")private WebElement pwdtxt;
